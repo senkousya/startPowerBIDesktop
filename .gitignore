@@ -1,0 +1,6 @@
+.vscode/
+rawImage/
+*.html
+*.docx
+*.epub
+!.gitkeep
