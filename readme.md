@@ -34,7 +34,7 @@ Power BI (Service)には無料サービスと有料サービス(ProとPremium)�
 
 [Power BI とは？ - What is Microsoft Power BI? -](https://qiita.com/yugoes1021/items/091c1732ff4b6f108877)
 
-PowerBIって調べだすと、SaasのPower BIだったりデスクトップアプリだったり検索が結果が色々と入り混じって調べづらいきがする。さらに言えばPowerBIがExcelのアドインとして提供され初めた過去の経緯とかもあって、そこら辺の情報も引っかかってきたり……
+PowerBIって調べだすと、Saasで提供されるPower BIだったりデスクトップアプリだったり検索結果が色々と入り混じって調べづらいきがする。さらに言えばPowerBIがExcelのアドインとして提供され初めた過去の経緯とかもあって、そこら辺の情報も引っかかってきたり……
 
 ## 🔰PowerBIのドキュメント
 
@@ -261,8 +261,8 @@ sharepoint上のデータが更新された時に、**最新の情報に更新**
 
 ## 発行(publish)機能を利用してみる
 
-さきほど作成したバブルマップを発行機能を利用して、PowerBI DesktopからPowerBI(SaaS)に発行してみます。
-発行を行う事により、該当のレポートがPowerBI(SaaS)上に接続されて、ブラウザから操作することが出来るようになります。
+さきほど作成したバブルマップを発行機能を利用して、PowerBI DesktopからPowerBI(Service)に発行してみます。
+発行を行う事により、該当のレポートがPowerBI(Service)上に接続されて、ブラウザから操作することが出来るようになります。
 
 ▶**発行**を選択  
 ![](image/publish.sakagura.step001.png)
@@ -275,17 +275,17 @@ sharepoint上のデータが更新された時に、**最新の情報に更新**
 ▶**マイワークスペース**を選んで**選択**  
 ![](image/publish.sakagura.step002.png)
 
-▶発行されました。**Power BI で'sakagura.pbix'を開く**でブラウザが立ち上がってPowerBI(SaaS)が開きます。  
+▶発行されました。**Power BI で'sakagura.pbix'を開く**でブラウザが立ち上がってPowerBI(Service)が開きます。  
 ![](image/publish.sakagura.step003.png)
 
-▶PowerBI(SaaS)に発行された事が確認出来ます。  
+▶PowerBI(Service)上に発行されたレポートが確認出来ます。  
 ![](image/publish.sakagura.step004.png)
 
 ## 🔰総評
 
 グラフィカルなレポートをさっくり作れたり、大きなファイルサイズでも取り回しが中々良かったりしてさわってみると結構便利です。
 
-またPowerBI Desktopから発行という機能を利用して、PowerBI(SaaS)にレポートをアップロードすることもできたりするので。
+またPowerBI Desktopから発行という機能を利用して、PowerBI(Service)にレポートをアップロードすることもできたりするので。
 これを利用してチーム間でレポートを共有等という用途でも便利かと思いました。（共有しちゃいけない物等の扱いは要注意なのは当たり前ですが……）
 
-が、PowerBI Desktopと PowerBI(SaaS)という名前が、その存在を無駄に理解しづらくしていて（自分だけ？）無駄に取っ掛かりづらかったのが残念な部分。
+が、PowerBI Desktopと PowerBI(Service)という名前が、その存在を無駄に理解しづらくしていて（自分だけ？）無駄に取っ掛かりづらかったのが残念な部分。
