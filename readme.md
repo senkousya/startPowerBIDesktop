@@ -43,7 +43,27 @@ PowerBIって調べだすと、Saasで提供されるPower BIだったりデス�
 Power BI や Power BI Desktop　等のドキュメントがある。
 基本、公式サイトに学習動画やらドキュメントやら大量にあるでここをみれ良いともう。
 
-## 🔰PowerBI Desktopをインストール
+あとPowerQueryで利用するM言語のリファレンスがありました。
+
+[Power Query M Reference](https://msdn.microsoft.com/en-us/query-bi/m/power-query-m-reference)
+
+## 🔰PowerBI Desktopをインストール(Microsoft Store版とインストーラ版)　※2018年5月2日追記
+
+下記ではインストーラ版でインストールの手順を説明していたがインストーラ版以外にもWindows Store版もありました。（初回この記事を書いた時に気づいてなかった……）
+
+なおMicrosoft Store版はWindows10で利用できます。
+
+[Microsoft ストアからアプリとしてインストールする](https://docs.microsoft.com/ja-jp/power-bi/desktop-get-the-desktop#install-as-an-app-from-the-microsoft-store)
+
+Microsoft Store版はインストーラー版に比べて、自動更新だったりインストールに管理者特権が必要ないだとか色々とメリットがあるようです。また制限事項もあるようです。
+
+## 🔰PowerBI Desktopをインストール（インストーラ版）
+
+※2018年5月2日追記  
+ここではMicrosoft Store版の存在に気づいてなかったのでインストーラ版を利用してインストールしていますが。
+上で話したようにMicrosoft Store版もあるので適宜、状況にあったものをインストールすればいいかと思います。
+
+個人的にはWindows10ならMicrosoft Store版をインストールしておけば問題ないかと思います。
 
 [MS PowerBI Desktop](https://powerbi.microsoft.com/ja-jp/desktop/)
 
@@ -259,7 +279,7 @@ PowerBIではshrepoint上の各種ファイルを読み込む事ができます�
 
 sharepoint上のデータが更新された時に、**最新の情報に更新**で更新すればPowerBI上のデータについても更新されます。
 
-## 発行(publish)機能を利用してみる
+## 🔰発行(publish)機能を利用してみる
 
 さきほど作成したバブルマップを発行機能を利用して、PowerBI DesktopからPowerBI(Service)に発行してみます。
 発行を行う事により、該当のレポートがPowerBI(Service)上に接続されて、ブラウザから操作することが出来るようになります。
